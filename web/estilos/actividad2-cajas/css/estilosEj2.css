@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.caja1 {
+	margin: 2%;
+	padding: 15px;
+	width: 40%;
+	text-align: justify;
+	background-color: lightsalmon;
+	border: 10px solid red;
+}
+
+.pcaja1 {
+	margin: 10px;
+}
+
+.caja2 {
+	margin: 2%;
+	padding: 15px;
+	width: 40%;
+	text-align: justify;
+	float: left;
+	background-color: lightsalmon;
+	border: 3px dashed;
+	border-radius: 10px;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px;
+	box-shadow: 10px 10px 10px gray;
+}
+
+.pcaja2 {
+	margin: 10px;
+}
+
+.c1shadow {
+	margin: 15px;
+	background-color: lightgray;
+	border: 2px solid blue;
+}
+
+.resaltado {
+	background-color: white;
+	color: blue;
+}
+
+.caja3 {
+	width: 40%;
+	margin: 2%;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+
+.bola {
+	margin: 2%;
+	border: 10px solid black;
+	border-image-source: url("../img/bola-100.png");
+	text-align: justify;
+}
+
+.pastilla {
+	border: silver 25px solid;
+	border-image-source: url("../img/pastilla.png");
+	border-image-slice: 25;
+	padding: 10px;
+	text-align: justify;
+}
+
+.win {
+	margin: 2%;
+	border: silver 20px solid;
+	border-image-source: url("../img/ventana.png");
+	border-image-slice: 20 40 30 80;
+	padding: 20px;
+	text-align: justify;
+}
+
+.hormiga {
+
+}

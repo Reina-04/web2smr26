@@ -71,13 +71,23 @@
 
 .win {
 	margin: 2%;
-	border: silver 20px solid;
+	border-color: silver;
+	border-width: 20px;
+	border-style: solid;
 	border-image-source: url("../img/ventana.png");
-	border-image-slice: 20 40 30 80;
+	border-image-slice: 20 80 20 80 fill;
 	padding: 20px;
 	text-align: justify;
 }
 
 .hormiga {
+	margin: 2%;
+	border: silver 15px solid;
+	border-image-source: url("../img/hormigas.png");
+	border-image-slice: 20 50 fill;
+	border-image-repeat: stretch;
+	padding: 20px;
+	text-align: justify;
 
 }
+

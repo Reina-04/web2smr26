@@ -1,0 +1,10 @@
+body {
+	background-color: lightyellow;
+}
+
+.titulopag {
+	margin: 2%;
+	text-align: center;
+	color: blue;
+	font-family: sans-serif;
+}

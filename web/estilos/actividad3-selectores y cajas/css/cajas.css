@@ -1,10 +1,132 @@
+*{
+	box-sizing: border-box;
+}
+
 body {
-	background-color: lightyellow;
+	background-color: #F4FCB9;
+	font-family: Arial;
+	margin: 0 auto;
+	width: 80%;
+}
+
+main {
+	
 }
 
 .titulopag {
 	margin: 2%;
 	text-align: center;
 	color: blue;
-	font-family: sans-serif;
+	font-family: Audiowide;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul li {
+	float: left;
+}
+
+ul li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+ul li a:hover {
+	background-color: lightgrey;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu {
+	background-color: #F1B6B7;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.destacado {
+	background-color: #FFFECD;
+	margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: dashed;
+	border-color: #FFA401;
+	padding: 10px;
+}
+
+.centrado {
+	justify-content: center;
+}
+
+.caja {
+	width: 30%;
+	margin: 2%;
+	padding: 10px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 2px;
+	color: green;
+	float: left;
+}
+
+.subrayado {
+	text-decoration: underline;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.textcaja {
+	clear: both;
+	text-align: left;
+	padding: 10px;
+}
+
+.izquierda {
+	padding: 0px;
+	float: left;
+}
+
+.derecha {
+	padding: 0px;
+	float: right;
+}
+
+img {
+	width: 12%;
+	margin: 10px;
+}
+
+.otrocontenido {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin-left: 4%;
+}
+
+.subrayado1 {
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+footer {
+	margin: 10px;
+	position: fixed;
+	bottom: 5%;
+	left: 10%;
+}
+
+.footer1 {
+	font-weight: bold;
+}
+
+.footer2 {
+	color: #878787;
 }

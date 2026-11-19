@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0%;
+}
+
+.caja {
+	margin: 2%;
+	padding: 1%;
+	border: solid black 3px;
+	position: static;
+	width: 300px;
+	height: 300px;
+}
+
+p {
+	float: left;
+	position: relative;
+	padding: 4px;
+	left: 10px;
+}
+

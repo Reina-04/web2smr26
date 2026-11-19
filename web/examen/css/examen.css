@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+head {
+	color: white;
+	background-color: #333333;
+	padding: 10px;
+}
+
+body {
+	background-color: #f4f1ea;
+	font-family: sans-serif;
+	color: #333333;
+}
+
+h1 {
+	text-align: center;
+	margin: 3%;
+	color: #1b5e20;
+	font-size: 2.5em;
+}
+
+.subtitulo {
+	text-align: center;
+	color: grey;
+	font-style: ;
+
+}
+
+h2 {
+	color: #2e7d32;
+	font: bold;
+}
+
+nav {
+	color: #1b5e20;
+}
+
+a {
+	color: #1b5e20;
+	text-decoration: none;
+}
+
+.tarjeta {
+	width: 600px;
+	background-color: white;
+	border: solid 2px #2e7d32;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: center auto;
+}
+
+.foto {
+	background-color: white;
+	border: solid 3px;
+	padding: 5px;
+	width: 180px;
+	float: left;
+	margin-right: 15px;
+}
+
+#ficha {
+	background-color: white;
+}
+
+.zona {
+	height: 220px;
+	border: dashed;
+	padding: 5px;
+}
+
+.caja {
+	width: 160px;
+	border: solid 2px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#caja1 {
+	position: static;
+}
+
+#caja2 {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+#caja3 {
+	position: absolute;
+}
+
+#columnas {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin: 10px;
+}
+
+.col-izq {
+	background-color: white;
+}
+
+.col-der {
+	background-color: white;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 15px;
+	margin: 15px;
+}
+

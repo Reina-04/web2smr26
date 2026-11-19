@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen</title>
+</head>
+<body>
+  <header>
+    <h1>Culb Senderista Sierra Norte</h1>
+      <ul>
+        <li><a>Rutas</a></li>
+        <li><a>Calendario</a></li>
+        <li><a>Inscripción</a></li>
+      </ul>
+  </header>
+  <section>
+    <h2>Próximas rutas</h2>
+    <img src="./img/montana.svg">
+    <p>Paisaje de la Sierra Norte</p>
+    <ol>
+      <li>Ruta del Cares</li>
+        <ol style="list-style-type: circle;">
+          <li>Hora de salida: 8:00</li>
+          <li>Material: botas de montaña y agua</li>
+        </ol>
+      <li>La Pedriza</li>
+      <li>Camino Schmid</li>
+    </ol>
+    <p>Más información sobre este deporte en <ins>Wikipedia</ins></p>
+  </section>
+  <section>
+    <h2>Calendario de salidas</h2>
+    <table border="2";>
+      <caption>Salidas del próximo trimestre</caption>
+        <tr>
+          <th>Ruta</th>
+          <th>Dificultad</th>
+          <th>Fecha</th>
+          <th>Distancia (km)</th>
+        </tr>
+        <tr>
+          <td>Ruta del Cares</td>
+          <td>Media</td>
+          <td>12/12/2026</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>La Pedriza</td>
+          <td>Alta</td>
+          <td>09/01/2027</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Camino Schmid</td>
+          <td>Baja</td>
+          <td>23/01/2027</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td colspan="3">Total de kilómetros</td>
+          <td>42</td>
+        </tr>
+    </table>
+  </section>
+  <section>
+    <h2>Inscripción</h2>
+    <p>Datos de inscripción</p>
+    <form method="post">
+      <label>Nombre: </label>
+      <input type="text" name="nombre"><br><br>
+      <label>Correo electrónico: </label>
+      <input type="text" name="correo"><br><br>
+      <label>Ruta elegida: </label>
+        <select id="rutas" name="rutas">
+              <option value="Ca" selected>Ruta del Cares</option>
+              <option value="Lp">La Pedriza</option>
+              <option value="Cs">Camino Schmid</option>
+            </select><br><br>
+      <label>Nivel: </label>
+      
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </form>
+  </section>
+</body>
+</html>

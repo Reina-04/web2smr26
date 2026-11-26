@@ -12,7 +12,10 @@ body {
 .contenedor {
 	display: flex;
 	flex-direction: row;
-	justify-content: left;
+	justify-content: space-between;
+	align-items: center;
+	height: 50vh;
+	width: 100%;
 }
 
 .item {
@@ -23,6 +26,14 @@ body {
 	text-align: center;
 }
 
-.item3 {
-	align-items: flex-end;
+/*.item3 {
+	align-self: flex-end;
+	margin-left: auto;
+}
+*/
+
+.izq {
+	display: flex;
+	flex-direction: row;
+	
 }

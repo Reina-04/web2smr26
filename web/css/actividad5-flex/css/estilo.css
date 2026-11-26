@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #020c1b;
+	border-bottom: solid 3px #64ffda;
+}
+
+.logo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #64ffda;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+
+}
+
+header nav a:hover {
+	color: #64ffda;
+}
+
+/*Terminamos con la cabecera y empezamos con el contenido de la pagina*/
+
+.seccion1 {
+	display: flex;
+	background-color: #112240;
+	padding: 60px 10%;
+	flex-direction: row;
+	align-items: center;
+}
+
+.formulario {
+	background-color: white;
+	width: 350px;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+legend {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.seccion1 form input {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#registrarse {
+	background-color: #d63384;
+	color: white;
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#registrarse:hover {
+	background-color: #a82063;
+}
+
+.seccion1 h2 {
+	font-size: 3rem;
+	color: #ccd6f6;
+	margin-bottom: 20px;
+}
+
+.seccion1 p {
+	font-size: 1.2rem;
+	color: #8892b0;
+}
